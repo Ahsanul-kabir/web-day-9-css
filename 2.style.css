@@ -2,7 +2,8 @@
     width: 300px;
     height: 200px;
     border: 1px solid red;
-    /* overflow: visible; by default */
+    /* overflow: visible;*/
+    /* by default */
     /* overflow: hidded; */
     /* eta use korle oi size er bahire baki gula ke show korbe nah */
     overflow: scroll;
