@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(0, 255, 21);
+        }
+        
+        .outer {
+            background-color: gray;
+        }
+        
+        .inner1 {
+            background-color: indianred;
+            transform: scale(0.75);
+            /*Standard hoitese 1 => 1 er sapek khe boro choto kora jai */
+        }
+        
+        .inner2 {
+            background-color: indianred;
+            transform: translateX(10px)
+            /*30 pc sore gase */
+        }
+        
+        .inner3 {
+            background-color: indianred;
+            transform: rotate(30deg)
+            /*30 degree gure jabe*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transform</h1>
+    <div class="box outer">
+        <div class="box inner1">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner2">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner3">box-3</div>
+    </div>
+</body>
+
+</html>
