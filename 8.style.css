@@ -36,8 +36,9 @@
 }
 
 .entertainment {
-    /* ei css gula only vartical er jonno 
-    :: flex: 0; = active bcoz na ekta line o na dile eror show korbe*/
+    /* ei css gula only vartical er jonno
+    :: flex: 0; = active bcoz na ekta line o na dile eror show korbe
+    :: run korar somoy ei flex =0 k ebad diya kora lagbo*/
     /* --------------------- */
     /* --------------------- */
     /* margin-left: auto; */
