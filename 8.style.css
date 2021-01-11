@@ -1,0 +1,45 @@
+.box {
+    width: 250px;
+    height: 150px;
+    font-size: 40px;
+    border: 3px solid mediumspringgreen;
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    /* ei ta div er khetre moto display: inline; er moto kaj kore */
+    /* --------------------- */
+    /* justify-content: center; */
+    /* sob box gula maje cole asbe laiga laiga thakbe */
+    /* --------------------- */
+    /* justify-content: space-between; */
+    /* sob box gular maje same size er gap create hoibo */
+    /* --------------------- */
+    /* justify-content: space-evenly; */
+    /* sob box gualr maje o pase gap rakbe */
+    /* --------------------- */
+    /* justify-content: flex-end; */
+    /* like as foat: right; */
+    /* --------------------- */
+    /* justify-content: flex-start; */
+    /* like as foat: start; */
+    /* --------------------- */
+    /* --------------------- */
+    flex-direction: column;
+    /* by default thake "row" te = horizontal*/
+    align-items: center;
+    /* flex-direction: column= vartical use korbo thokon
+    justify-content: center; er moto kore align-items: center;
+    use kora lage */
+}
+
+.entertainment {
+    /* margin-left: auto; */
+    /* eita dile ei 3ta box er modde
+    3no ta ekbare right e cole asbe baki dui ta left e pore thakbe */
+    /* --------------------- */
+    /* --------------------- */
+    /* flex: 1; */
+    /* baki jei width thakbo oi width eita niye nibe */
+}
