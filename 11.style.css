@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* = eta hoitese mane jaiga na thakle niser dike phatai dao element gula
+    =eta dile media Query use kora lagbo nah
+    = eta use korle auto respinsive er moto kaj kore
+    max-width: 1200px;
+    margin: 0 auto; */
+}
+
+.food {
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    margin: 10px;
+    width: 350px;
+}
+
+.food img {
+    width: 100%;
+}
+
+@media (max-width: 760px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .food {
+        background-color: rosybrown;
+    }
+}
+
+@media (max-width: 760px) {
+    .container .food {
+        background-color: rosybrown;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container .food {
+        background-color: skyblue;
+    }
+}
