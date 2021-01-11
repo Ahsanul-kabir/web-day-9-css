@@ -1,0 +1,16 @@
+.box {
+    /* width: 200px;
+    height: 100px; */
+    border: 2px solid greenyellow;
+    /* padding: 50px; */
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: 150px 150px 150px 100px; */
+    /* same i can write, grid-template-columns: repeat(3,150px); */
+    /* -------------------****---------- */
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    /* 6 ta vage fraction hoye jbe (fr=fraction) grid-gap: 20px; */
+}
