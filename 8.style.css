@@ -26,6 +26,7 @@
     /* like as foat: start; */
     /* --------------------- */
     /* --------------------- */
+    /* ei css gula only horizontal er jonno */
     flex-direction: column;
     /* by default thake "row" te = horizontal*/
     align-items: center;
@@ -35,11 +36,16 @@
 }
 
 .entertainment {
+    /* ei css gula only vartical er jonno 
+    :: flex: 0; = active bcoz na ekta line o na dile eror show korbe*/
+    /* --------------------- */
+    /* --------------------- */
     /* margin-left: auto; */
     /* eita dile ei 3ta box er modde
     3no ta ekbare right e cole asbe baki dui ta left e pore thakbe */
     /* --------------------- */
+    flex: 0;
     /* --------------------- */
-    /* flex: 1; */
+    /* flex: 1;
     /* baki jei width thakbo oi width eita niye nibe */
 }
