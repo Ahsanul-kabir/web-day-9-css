@@ -1,0 +1,36 @@
+@keyframes slidein {
+    0% {
+        left: 0;
+        top: 0;
+        background-color: yellow;
+    }
+    50% {
+        left: 400px;
+        top: 100px;
+        backgroud-color: red;
+    }
+    100% {
+        left: 800px;
+        top: 0px;
+        background-color: red;
+    }
+}
+
+.stage {
+    background-color: aquamarine;
+    height: 200px;
+    min-width: 800px;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+}
+
+.stage:hover .ball {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: slidein 3s ease-in-out 1s infinite alternate;
+}
